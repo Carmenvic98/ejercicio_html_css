@@ -1,0 +1,2 @@
+# Este es un proyecto en el cual tuvimos que modificar y hacer arreglos en el html y css de una página. La cual tenía que quedar igual al diseño enviado por Figma.
+# Dicho proyecto es el primero del bootcamp de programación fullstack Educamas.
