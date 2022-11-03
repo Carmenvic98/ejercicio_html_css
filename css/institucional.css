@@ -1,13 +1,24 @@
 .institucional {
     display: flex;
     flex-direction: column;
-    align-items: center;
-
     color: var(--fuente-ceniza-oscuro);
-    text-align: center;
-
+    text-align: left;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    
+}
+
+.institucional__informacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.institucional__izquierda {
+    padding-left: 42px;
+}
+
+.institucional__derecha {
+    padding-right: 42px;
 }
 
 .institucional__titulo {
@@ -17,36 +28,45 @@
     font-family: var(--montserrat);
     text-transform: uppercase;
     text-align: center;
-
     margin-bottom: 2rem;
 }
 
 .institucional__descripcion {
-    margin-bottom: 2rem;
+    margin-bottom: 35px;
 }
 
 .institucional__direccion {
     font-size: 1.5rem;
     line-height: normal;
-
     margin-bottom: 2rem;
 }
 
 .institucional__contacto {
     font-size: 1.2rem;
     line-height: 1.8;
-
     margin-top: 2rem;
 }
 
 .institucional__contacto-telefono {
-    line-height: normal;
+    line-height: 26px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    text-decoration-line: underline;
+    color: #0006FF;
+
 }
 
 .institucional__contacto-email {
-    color: var(--fuente-ceniza-oscuro);
     text-decoration: underline;
     display: block;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 35px;
+    color: #0006FF;
 }
 
 .institucional__video {

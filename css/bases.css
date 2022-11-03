@@ -29,8 +29,8 @@ body {
 }
 
 .container {
-    padding-right: 6%;
-    padding-left: 6%;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .boton {
@@ -43,3 +43,4 @@ body {
     border: 1px solid var(--boton-rojo);
     border-radius: 5px;
 }
+
